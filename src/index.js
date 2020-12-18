@@ -1,4 +1,3 @@
-/* eslint-disable import/no-unresolved */
 import './css/style.css';
 import './js/app';
 import './img/visa.png';
@@ -7,4 +6,4 @@ import './img/jcb.png';
 import './img/mastercard.png';
 import './img/discover.png';
 import './img/dinersclub.png';
-import './img/MIR.png';
+import './img/mir.png';
