@@ -1,0 +1,83 @@
+h3 {
+    font-size:1.3em;
+}
+.cards-list {
+    margin:10px 0;
+    height:25px;
+}
+li {
+    display:block;
+    float:left;
+}
+.card {
+    float:left;
+    width:39px;
+    height:25px;
+    text-indent:-9999px;
+    background-position:0 0;
+    background-size: contain;
+    margin-right:4px;
+}
+.check-form {
+    margin-left:10px;
+}
+.card.disabled {
+    opacity:.3;
+}
+.card.visa {
+    background-image:url(visa.png);
+}
+.card.amex {
+    background-image:url(american_express.png);
+}
+.card.jcb {
+    background-image:url(jcb.png);
+}
+.card.master {
+    background-image:url(mastercard.png);
+}
+.card.discover {
+    background-image:url(discover.png);
+}
+.card.diners_club {
+    background-image:url(dinersclub.png);
+}
+.card.mir {
+    background-image:url(mir.png);
+}
+.card-number-input {
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group {
+    padding-left: 30px;
+}
+
+.check-btn {
+    margin-left: 10px;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    text-align: center;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.modal {
+    background: rgba(207, 212, 196, 0.5);
+    position: fixed;
+    top: 10px;
+    left: 25%;
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-left:10px;
+    opacity: 0;
+}
