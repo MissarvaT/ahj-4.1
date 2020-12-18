@@ -1,12 +1,13 @@
+/* eslint-disable radix */
 export default function validate(digits) {
   if (digits.length < 13) {
     return 'Card number cannot be less than 13 digits';
   }
   let sum = 0;
 
-  for (let i = 0; i < digits.length; i++) {
+  for (let i = 0; i < digits.length; i += 1) {
     let cardNum = parseInt(digits[i]);
-    if (isNaN(cardNum)) {
+    if (Number.isNaN(cardNum)) {
       return 'Not correct data! Please type in digits from 0 to 9';
     }
 

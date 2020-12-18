@@ -1,7 +1,6 @@
+/* eslint-disable no-param-reassign */
+/* eslint-disable class-methods-use-this */
 export default class CardValidatorWidget {
-  constructor() {
-  }
-
   getCardValidatorHTML() {
     return `    <div class="container">
         <h3>Check your credit card number</h3>
@@ -48,6 +47,6 @@ export default class CardValidatorWidget {
     const closeButton = document.querySelector('.close');
     closeButton.addEventListener('click', () => {
       errorWindow.style.opacity = 0;
-    })
+    });
   }
 }

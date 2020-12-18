@@ -1,3 +1,4 @@
+/* eslint-disable consistent-return */
 import validate from './validateFunc';
 
 export default function definePaySystem(digits) {
@@ -18,8 +19,8 @@ export default function definePaySystem(digits) {
       return 'discover';
     }
   } else if (validate(digits) === false) {
-      return 'Payment system is not defined';
+    return 'Payment system is not defined';
   } else {
-      return validate(digits);
+    return validate(digits);
   }
 }
